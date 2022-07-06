@@ -5,6 +5,7 @@ body{
 }
 .row{
     display: flex;
+    padding-bottom: 150px;
 }
 h1{
     font-size: 50px;
@@ -27,7 +28,7 @@ a{
 #top-banner{
     background-image: url(../image/top-banner.png);
     background-repeat: no-repeat;
-    padding-bottom: 150px;
+
 }
 .half_width{
     width:40%;
@@ -44,5 +45,24 @@ a{
 #dream-big{
     background-image: url(../image/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right;
+}
+#experience_area{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experience_area .half_width{
+    box-shadow: 5px 5px 40px gray;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+#experience_area .half_width.half_width{
+    border-left: 8px solid tomato;
+}
+#experience_area .half_width.baby-web{
+    border-left: 8px solid blue;
+}
+#experience_area h3{
+    color:orange;
 }
